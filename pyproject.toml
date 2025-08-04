@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tarte-ai"
+version = "0.0.1"
+description = "TARTE-AI: Transformer Augmented Representation of Tabular Entries"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.12.00"
+keywords = ["tarte-ai"]
+license = { text = "BSD-3-Clause license" }
+authors = [
+    {name = "Myung Jun Kim"},
+    {name = "Felix Lefebvre"},
+    {name = "Gaetan Brison"},
+    {name = "Alexandre Perez-Lebel"},
+    {name = "Gael Varoquaux"},
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "torch",
+    "torcheval",
+    "fasttext",
+    "huggingface_hub",
+    "catboost",
+    "tabpfn",
+    "xgboost",
+    "skrub",
+    "pyarrow",
+    "fastparquet",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "coverage",
+]
+
+[project.urls]
+Homepage = "https://github.com/soda-inria/tarte"
+
+[tool.setuptools]
+packages = ["tarte_ai"]
