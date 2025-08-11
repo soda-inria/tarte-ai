@@ -7,8 +7,8 @@ from sklearn.base import BaseEstimator, RegressorMixin, ClassifierMixin
 from sklearn.utils.validation import check_is_fitted
 from sklearn.linear_model import RidgeCV, RidgeClassifierCV
 from sklearn.preprocessing import label_binarize
-from tarte_ai.src.gbdt_bagging_es import XGBRegressor_ESB, XGBClassifier_ESB
-from tarte_ai.src.tarte_utils import reshape_pred_output
+from tarte_ai.gbdt_bagging_es import XGBRegressor_ESB, XGBClassifier_ESB
+from tarte_ai.tarte_utils import reshape_pred_output
 
 
 def _set_ridge_estimator(task):

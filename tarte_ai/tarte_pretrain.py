@@ -5,7 +5,7 @@ TARTE Pretrainer that pretrains a transformer with data from knowledge graphs.
 import torch
 import numpy as np
 from datetime import datetime
-from tarte_ai.src.tarte_model import TARTE_Pretrain_NN
+from tarte_ai.tarte_model import TARTE_Pretrain_NN
 
 
 def _calculate_similarity(x):

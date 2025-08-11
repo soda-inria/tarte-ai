@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tarte-ai"
-version = "0.0.1"
+version = "0.0.6"
 description = "TARTE-AI: Transformer Augmented Representation of Tabular Entries"
 readme = { file = "README.md", content-type = "text/markdown" }
-requires-python = ">=3.12.00"
+requires-python = ">=3.11.00"
 keywords = ["tarte-ai"]
 license = { text = "BSD-3-Clause license" }
 authors = [
@@ -56,7 +56,10 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/soda-inria/tarte"
+Homepage = "https://github.com/soda-inria/tarte-ai"
+Repository = "https://github.com/soda-inria/tarte-ai"
+Issues = "https://github.com/soda-inria/tarte-ai/issues"
+Documentation = "https://github.com/soda-inria/tarte-ai#readme"
 
 [tool.setuptools]
 packages = ["tarte_ai"]

@@ -12,7 +12,7 @@ from sklearn.model_selection import (
     ShuffleSplit,
     StratifiedShuffleSplit,
 )
-from tarte_ai.src.tarte_utils import reshape_pred_output
+from tarte_ai.tarte_utils import reshape_pred_output
 
 
 def _set_train_valid_split(X, y, n_splits, val_size, random_state, task):
