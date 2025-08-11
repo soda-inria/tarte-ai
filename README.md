@@ -1,8 +1,16 @@
+[![Downloads](https://pepy.tech/badge/tarte-ai)](https://pepy.tech/project/tarte-ai)
+[![PyPI Version](https://img.shields.io/pypi/v/tarte-ai)](https://pypi.org/project/tarte-ai/)
+[![Python Version](https://img.shields.io/pypi/pyversions/tarte-ai)](https://pypi.org/project/tarte-ai/)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Benchmark-yellow)](https://huggingface.co/inria-soda/tarte)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.14415-blue.svg)](https://arxiv.org/pdf/2505.14415)
+
 # TARTE: Transformer Augmented Representation of Table Entries
 
 ![TARTE_outline](assets/TARTE_summary.jpg)
 
-### NOTE: The repository is still in construction
+### NOTE: The repository is still in construction 🚧
 
 This repository contains the implementation of **TARTE: Transformer Augmented Representation of Table Entries**.
 
@@ -28,9 +36,13 @@ After a correct installation, you should be able to import the module without er
 import tarte_ai
 ```
 
-## Examples
+## Colab Examples (Give it a test):
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FCrf27lfFQbEJgbdldNDdfvkYiLZNaVz?usp=sharing)
+* TARTE Finetuning
+* TARTE Featurizer
+* TARTE Boosting
+  
 
-[Example](examples/example_tarte_post-training.ipynb) shows running three post-training strategies (presented in the paper) for TARTE:
 
 ## Pre-training and reproducing the results from the paper.
 

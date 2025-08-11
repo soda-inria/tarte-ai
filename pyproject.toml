@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tarte-ai"
-version = "0.0.4"
+version = "0.0.6"
 description = "TARTE-AI: Transformer Augmented Representation of Tabular Entries"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.11.00"
