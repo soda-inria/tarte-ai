@@ -27,8 +27,8 @@ from sklearn.utils.validation import check_is_fitted, check_random_state
 from joblib import Parallel, delayed
 from tqdm import tqdm
 from scipy.special import softmax
-from tarte_ai.src.tarte_model import TARTE_Downstream_NN
-from tarte_ai.src.tarte_utils import load_tarte_pretrain_model
+from tarte_ai.tarte_model import TARTE_Downstream_NN
+from tarte_ai.tarte_utils import load_tarte_pretrain_model
 
 
 class TARTETabularDataset(Dataset):

@@ -11,8 +11,8 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import PowerTransformer, RobustScaler
 from sklearn.pipeline import Pipeline
 from skrub import to_datetime
-from tarte_ai.src.tarte_model import TARTE_Pretrain_NN
-from tarte_ai.src.tarte_utils import load_tarte_pretrain_model, load_fasttext
+from tarte_ai.tarte_model import TARTE_Pretrain_NN
+from tarte_ai.tarte_utils import load_tarte_pretrain_model, load_fasttext
 
 
 class TARTE_TablePreprocessor(TransformerMixin, BaseEstimator):
